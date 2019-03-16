@@ -22,6 +22,10 @@ All of the necessary code is contained in the file `style.py`. You can try it on
 
 ```
 python style.py -s <style_image> -c <content_image> -m <model_name> -g 0
+
+
+e.g.
+python3 style.py -s thor_god.jpg -c thor_dog.jpg -m vgg16 -g 0
 ```
 
 The prototxts which come with the vanilla Caffe install aren't quite compatible with this code - working ones have already been added to this repository as a result of this. To get the pretrained models, simply run:
